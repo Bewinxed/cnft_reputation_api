@@ -12,7 +12,5 @@ app.include_router(das.route)
 def read_root():
     return {'Hello': 'World'}
 
-# if __name__ == '__main__':
+if __name__ == '__main__':
     uvicorn.run(app, host='127.0.0.1', port=3000)
-    
-helius_client.enriched_transaction_history(address="D29ujqwLnWony5RpKm811GrWYf8G9xpTJBami6GKFyYd")
